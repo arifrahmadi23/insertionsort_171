@@ -6,4 +6,14 @@ int n;										// Membuat Variable inputan n
 
 void input() {				// Procedure Input
 	while (true)
-	
+	{
+		cout << "Masukan Jumlah Data pada Array : "; // Membuat Inputan jumlah element Array
+		cin >> n;									// Memanggil variable inputan n
+
+		if (n <= 20) {
+			break;
+		}
+		else
+		{
+			cout << "\nArray yang anda masukan maksimal 20 elemen.\n"; // menampilkan Pesan jika data lebih dari 20
+		}
